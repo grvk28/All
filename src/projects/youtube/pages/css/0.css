@@ -1,0 +1,277 @@
+.One{
+    padding: 1.5%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    gap:10vw;
+    width: 95vw;
+    position:sticky;
+    top:0;
+    z-index: 2;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.OneLeft{
+    display: flex;
+    flex-direction: row;
+    gap:14%;
+}
+
+.OneTitle,.OneSearch,.OneMic,.OneRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.OneTitle{
+    gap:3px;
+    color:black
+}
+.OneName{
+    font-style: sans-sarif;
+    font-weight:900;
+}
+
+.OneCn{
+    font-size: x-small;
+    position:relative;
+    top:-8px;
+}
+
+.OneRect{
+    height:19px;
+    width:28px;
+    background-color: red;
+    border-radius: 20% 20% 20% 20%;
+}
+
+.OneTri{
+    color:white;
+    border-top:3.5px solid transparent;
+    border-left: 6.5px solid;
+    border-bottom: 3.5px solid transparent;
+    width:0px;
+    height:0px;
+    position:relative;
+    left:11px;top:5.5px;
+}
+
+.OnePad{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    height:15px;
+    position:relative;
+    top:-8px;
+    left:-3px;
+    width:25%;
+    padding: 8%;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.OnePad:hover{background-color: rgba(0, 0, 0, 0.11);}
+
+.OneDad{
+    background-color: black;
+    width:18px;
+    height:1px;
+}
+
+.OneSearch{
+    width:60%;
+    position:relative;
+    top:-10px;
+    left:4%;
+}
+
+.OneFill{
+    padding:1.5%;
+    padding-left: 2%;
+    border-radius: 30px 0 0 30px;
+    width: 38vw;
+    position:relative;
+    left:6%;
+    top:-0px;
+    border-color: rgba(0, 0, 0, 0.171);
+}
+
+.OneLens{
+    height:15px;
+    width: 40px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.034);
+    padding: 1%;
+    position:relative;
+    left:3.6vw;
+    top:-0%;
+    color:black;
+    border-radius: 0 20px 20px 0;
+    border-style: solid;
+    border-color:rgba(0,0,0,0.171);
+}
+
+.OneLens:hover{
+    background-color: rgba(0, 0, 0, 0.054);
+}
+
+.OneOo{
+    position:relative;
+    top:-5px;
+}
+
+.OneJe{
+    font-size:xx-small;
+    position: relative;
+    left:4px;
+    top:-11px;
+
+}
+
+.OneMic{
+    z-index: 1;
+    position: relative;
+    left:9.5%;
+    top:-2px;
+    text-align: center;
+    padding: 0%;
+    border-radius:50% 50% 50% 50%;
+}
+
+.Mu{
+    position: relative;
+    left:13px;
+    top:2px;
+}
+
+.MicUp{
+    position:relative;
+    top:8px;
+}
+
+.OneMic:hover{
+    height:40px;
+    width:40px;
+    background-color: rgba(0, 0, 0, 0.144);
+    position:relative;
+    
+}
+
+.OneRight{
+    gap:15%;
+    position:relative;
+    text-align: center;
+}
+
+.OneBell,.OneCreate{
+    width:40px;
+    border-radius: 50% 50% 50% 50%;
+    text-align: center;
+    position:relative;
+    top:-10px;
+}
+
+.OneBell:hover,.OneCreate:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+    position: relative;
+}
+
+.OneC{
+    position:relative;
+    top:8px;
+}
+
+.OneProfile{
+     background-color: aqua;
+     width:30px;
+     height:30px;
+     border-radius: 50% 50% 50% 50%;
+     position: relative;
+     top:-5px;
+}
+
+.CardA{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:7%;
+    left:27%;
+    border-style: solid;
+    padding: 1%;
+    width:37vw;
+}
+
+.Side{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    position:relative;
+    left:2%;
+    text-align: left;
+    width:100%;
+    color:red;
+    width:12%;
+    overflow:scroll;
+}
+
+.Side-first,.Side-second, .Side-third, .Side-four, .Side-five{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.Side-first > a,.Side-second > a,.Side-third > a,
+.Side-four > a, .Side-five > a{
+    padding:2%;
+    position:relative;
+    padding-left:15px;
+    height:35px;
+    display: flex;
+    align-items: center;
+}
+
+.Side-first > a:hover,.Side-second > a:hover, .Side-third> a:hover,
+ .Side-four> a:hover, .Side-five> a:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Side-line{
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height:1px;
+}
+
+.OneMid{
+    position:absolute;
+    left:15%;
+    top:80px;
+    overflow:scroll;
+    display: flex;
+    flex-direction: row;
+    gap:1%;
+    width:85%;
+}
+
+.OneMid > a{
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.178);
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: left;
+    white-space: nowrap;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.OneMid > div:hover{
+    background-color: rgba(0, 0, 0, 0.278);
+}

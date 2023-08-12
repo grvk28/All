@@ -1,0 +1,373 @@
+.body{
+    text-align: left;
+}
+.source{
+    display:none
+}
+a{
+    text-decoration: none;
+}
+.app{
+    color:rgba(0, 0, 0, 0.418);
+    text-align:center;
+    width: 100vw;
+    margin-left:0%;
+    display:none;
+}
+.app:hover{
+    color:black;
+}
+.line{
+    background-color:rgba(0, 0, 0, 0.24);
+    height:1px;
+    width:100vw;
+}
+.lines{
+    background-color:rgba(0, 0, 0, 0.24);
+    height:1px;
+    width: 100%;
+}
+.one{
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-left: 2%;
+ margin-right: 2%;
+ padding: 1%;
+ align-items: center;
+ flex-wrap: wrap;
+ text-decoration: none;
+}
+
+.one-A{
+ display: flex;
+ flex-direction: row;
+ gap:10px;
+}
+
+.one-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1px;
+}
+
+.oneInput{
+    border-color: white;
+    border-style: none;
+    outline-color: white;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding: 4%;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 0;
+}
+
+.logo-A{
+ background-color: black;
+ height: 20px;
+ width:20px;
+ border-radius: 10px 10px 10px 10px;
+}
+
+.logo-B{
+ background-color: black;
+ height: 20px;
+ width:10px;
+ border-radius: 70% 70% 70% 70%;
+}
+
+.logo-C{
+ background-color: black;
+ height: 18px;
+ width:5px;
+ border-radius: 70% 70% 70% 70%;
+}
+
+.one-search{
+    display: flex;
+    flex-direction: row;
+}
+
+.one-marks{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    margin-left:-20%;
+    align-items: center;
+    gap:8px;
+    color:rgba(0, 0, 0, 0.425)
+}
+
+.one-icon{
+    font-size: xx-large;
+}
+
+.one-text{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.one-B{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    color:rgba(0, 0, 0, 0.315);
+    align-items: center;
+}
+
+.one-B:hover{
+    color:black;
+}
+
+.one-first{
+    display: flex;
+    flex-direction: row;
+    gap:7px;
+    text-decoration: none;
+}
+
+.first-A{
+ font-size: x-large;
+ text-decoration: none;
+ color: black;
+}
+
+.first-B{
+    margin-top: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+.one-sec{
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+}
+
+.one-third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:4px;
+    background-color: white;
+    border-color: white;
+    border-style: none;
+}
+
+.oneCircle{
+    background-color: yellowgreen;
+    height:30px;
+    width:30px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.oneLast{
+   font-size: xx-small;
+}
+
+.fun{
+    display: none;
+    flex-direction: row;
+    width: 20%;
+    padding: 2%;
+    margin-top: 10%;
+    height:50px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.301);
+    position:absolute;
+    top:50px;
+    left:10%;
+}
+
+.gun{
+    position: absolute;
+    top:10%;
+    right: 0%;
+    width:250px;
+    background-color: azure;
+    padding: 2%;
+    display:none;
+    flex-direction: column;
+    gap:25px;
+    text-align: left;
+    height:70%;
+    overflow: auto;
+}
+
+.gun-write,.gun-profile,.gun-library,.gun-stories,.gun-stats{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.gun-first{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.gun-sec,.gun-third,.gun-four{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.gun-third{
+
+}
+
+.gun-four{
+
+}
+
+.gun-five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: smaller;
+    gap:10%;
+}
+
+.Two{
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 50px;
+}
+
+.Two-head{
+    font-size: xx-large;
+    text-align: left;
+}
+
+.Two-sec{
+    margin-top: 30px;
+    gap:8px;
+    margin-bottom: 30px;
+}
+
+.CircleA,.CircleB{
+    border-radius: 50% 50% 50% 50%;
+}
+.CircleA{
+    height:50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.199);
+    z-index: 0;
+}
+
+.CircleB{
+    height:25px;
+    width: 25px;
+    background-color:rgba(0, 128, 0, 0.603);
+    z-index: 1;
+    margin-left: -12px;
+}
+
+.Two-Prof{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.TwoMain{
+    gap:5px;
+}
+
+.Two-sec,.Two-person,.Two-Detail,.TwoMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.TwoCircle{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.tpr{
+    background-color: white;
+    border-style: none;
+    border-color: white;
+}
+
+.Two-person{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.childOne{
+    display:none;
+    flex-direction: column;
+    height:200px;
+    width:200px;
+    position: absolute;
+    left:20%;
+    top:38%;
+    background-color: white;
+    padding:2%;
+    z-index:2;
+}
+
+.Three-one:hover .childOne{
+    display:flex
+}
+
+.cId{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.childThree{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conePhoto{
+    height:50px;
+    width:50px;
+    border-radius:50% 50% 50% 50%;
+    background-color: black;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.third-one,.third-two{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.clap:hover,.respond:hover{
+    color:rgba(0, 0, 0, 0.336)
+}
+
+.middle{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.ThreeHead{
+    background-color: blueviolet;
+    margin: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height:100px;
+}
+
+@media(max-width:500px){
+    .one-first{
+        display: none;
+    }
+}

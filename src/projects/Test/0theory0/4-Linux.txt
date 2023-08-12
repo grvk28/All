@@ -1,0 +1,80 @@
+Last total: 0/40
+1. ls 
+
+2. alias
+
+3. unalias
+
+4. pwd
+
+5. cd 
+
+6. cp
+
+7. rm 
+
+8. mv
+
+9. mkdir 
+
+10. man
+
+11. touch 
+
+12. man
+
+13 ./ 
+
+14. exit
+
+15. sudo 
+
+16. shutdown
+
+17.htop 
+
+18. unzip
+
+19.apt,pacman 
+
+20. echo
+
+21. cat 
+
+22. ps
+
+23. kill 
+
+24. ping
+
+25. vim 
+
+26. history
+
+27.passwd 
+
+28. which
+
+29. shred 
+
+30. less
+
+31.tail 
+
+32. head
+
+33.grep 
+
+34. whoami
+
+35. whatis 
+
+36. wc
+
+37. uname 
+
+38. neofetch
+
+39. find 
+
+40. wget

@@ -1,0 +1,186 @@
+@media screen and (max-width:500px){
+    .sch-mn-s{
+        display:none;
+        visibility: hidden;
+        
+    }
+    .sch-hd-sM{
+        top:40%;
+    }
+}
+
+Link{
+    text-decoration: none;
+    color:white;
+}
+
+.sch-pg{
+    width: 100%;
+}
+
+.sch-hd{
+    background-color: rgb(228, 223, 169);
+    height:120px;
+    width: 100%;
+    position: absolute;
+    top:0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sch-hd-sM{
+    background-color: white;
+    position: absolute;
+    top:22px;
+    width:100%;
+    color: blue;
+    font-weight: 900;
+    font-size: 4.5vw;
+    z-index: 0;
+    font-style: italic;
+}
+
+.sch-hd-sS{
+    z-index: 2;
+    position: absolute;
+    right:10px;
+    color: brown;
+    top:5px;
+    font-size: 1vw;
+}
+
+.sch-mn{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    
+    width: 100%;
+    top:120px;
+    height:30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sch-mn-s{
+    top:5px;
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+.sch-mn-sA:hover .sA-child{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    border-color: rgb(124, 115, 115);
+    border-width: 0.5px;
+    border-bottom-style:groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    text-align: left;
+    width:200%;
+    background-color: blue;
+}
+
+.sA-child{
+    display: none;
+    color:white;
+    position: relative;
+    top:5px;
+    padding:2%;
+    z-index: 5;
+}
+
+.sA-child Link{
+    padding: 10%;
+}
+
+.sch-not{
+    position: relative;
+    width: 18%;
+    top:460px;
+    left:0px;
+    text-align: center;
+    background-color: blue;
+    height:30px;
+    color:white;
+    font-weight: 800;
+    padding: 0%;
+}
+
+.sch-not-sA{
+    position:absolute;
+    top:5px;
+    left:40%;
+}
+
+.sch-not-sB{
+    position:absolute;
+    top:300%;
+    left:40%;
+    color:black;
+}
+
+.sch-ach{
+    position: relative;
+    width: 18%;
+    top:430px;
+    left:82%;
+    text-align: center;
+    background-color: blue;
+    height:30px;
+    color:white;
+    font-weight: 800;
+    padding: 0%;
+}
+
+.img-main{
+    width: 80%;
+    height:300px;
+    position: relative;
+    top:90px;
+    left:30px;
+}
+
+.btn-A{
+    position: relative;
+    top:-50px;
+    left:-84%;
+}
+
+.btn-B{
+    position: relative;
+    top:-50px;
+    left:4%;
+}
+
+.sch-ft{
+    background-color: black;
+    position: relative;
+    bottom:0;
+    top:700px;
+    width: 94.95vw;
+    height:200px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+.img-shift{
+    position: relative;
+    top:70px;
+    display: flex;
+    left:47%;
+    gap:5px
+}
+
+.img-shift button{
+    border-radius: 80%;
+}
+

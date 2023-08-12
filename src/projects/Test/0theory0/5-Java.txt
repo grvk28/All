@@ -1,0 +1,218 @@
+Total Marks:95 Last Totals:0
+1. Why is Java a platform independent language?
+
+2. Why is Java not a pure object oriented language?
+
+3. Difference between Heap and Stack Memory in java. And how java utilizes this.
+
+4. Can java be said to be the complete object-oriented programming language?
+
+5. How is Java different from C++?
+
+6. POinters are used in C/C++. Why does Java not make use of pointers?
+
+7. What do you understand by an instance variable and a local variable?
+
+8. What are the default values assigned to variables and instances in java?
+
+9. What do you mean by data encapsulation?
+
+10. Tell us something about JIT compiler?
+
+11. Can you tell the difference between equals() method and equality operator (==) in Java?
+
+12. How is an infinite loop declared in Java?
+
+13. Briefly explain the concept of constructor overloading.
+
+14. Define Copy constructor in java.
+
+15. Can the main method be overloaded?
+
+16. Comment on method overloading and overridding by citing relevant examples.
+
+17. A single try block can exiist in a Java Program. Explain.
+
+18. Explain the use of final keyword in variable, method and class.
+
+19. So final, finally and finalize keywords have the same function?
+
+20. Is it possible that the 'finally' block will not be executed? If yes then list the case.
+
+21. Identify the output of the java program and state the reason.
+
+22. When can you use super keyword?
+
+23. Can the static methods be overloaded?
+
+24. Why is the main method static in Java?
+
+25. Can the static methods be overriden?
+
+26. Differentiate between static methods variables, and static classes in java.
+
+27. What is the main objective of grabage collection?
+
+28. What is a ClassLoader?
+
+29. What part of memory-Stack or Heap - is cleaned in grabage collection process?
+
+30. What are shallow copy and deep copy in java?
+
+31. Apart from the security aspect, what are the reasons behind making strings immutable in java?
+
+32. What is a singleton class in Java? And How to implement a singleton class?
+
+33. Which of the below generates a compile-time error? State the reason.
+
+34. How would you differentiate between a String, StringBuffer, and a StringBuilder?
+
+35. Using relevant properties highlight the differences between interfaces and abstract classes.
+
+36. Is this program giving a compile-time error? If Yes then state the reason and number of errors it will give.
+    If not then state the reason.
+
+37. What is a Comparator in java?
+
+38. In Java, static as well as private method overriding is possible. Comment on the statement.
+
+39. What makes a HashSet different from s TreeSet?
+
+40. Why is the character array preferred over string for storing confidential information?
+
+41. What do we get in the JDK file?
+
+42. What do JVM,JRE and JDK in Java?
+
+43. What are the differences between HashMap and HashTable in Java?
+
+44. What is the importance of reflection in Java?
+
+45. What are the different ways of threads usage?
+
+46. What are the different types of Thread Priorities in Java? And what is the default 
+    priority of a thread assigned by JVM?
+
+47. What is the difference between the program and the process?
+
+48. What is the difference between the 'throw' and 'throws' keyword in java?
+
+49. What are the differences between constructor and method of a class in Java?
+
+50. Identify the output of below java program and Justify your answer.
+
+51. Java works as 'pass by value' or 'pass by reference' phenomenon?
+
+52. What is the 'IS-A' relationship in OOPs java?
+
+53. Which among String or String Buffer should be preferred when there are lot of updates 
+    required to be done in the data?
+
+54. How to not allow serialization of attributes of a class in Java?
+
+55. What happens if the static modifier is not included in the main method signature in Java?
+
+56. Consider the below program, identify the output, and also state the reason for that.
+
+57. Can we make the main() thread a daemon thread?
+
+58. What happens if there are multiple main methods inside one class in Java?
+
+59. What do you understand by Object Cloning and how do you achieve it in Java?
+
+60. How does an exception propagate in the code?
+
+61. How do exceptions affect the program if it doesn't handle them?
+
+62. Is it mandatory for a catch block to be followed after a try block?
+
+63. Will the finally block get executed when the return statement is written at the end of
+    try block and catch block as shown below?
+
+64. Can you call a constructor of a class inside the another constructor?
+
+65. Contiguous memory locations are usually used for storing actual values in an array but 
+    not an array but not in ArrayList. Explain. 
+
+66. Why does the java array index start with 0?
+
+67. Why is the remove method faster in the linked list than in an array?
+
+68. How many overloaded add() and addAll() methods are avilable in the List interface?
+    Describe the need and uses. 
+
+69. How does the size of ArrayList grow dynamically? And also state how it is implemented
+    internally.
+
+70. Althrough inheritance is a popular OOPs concept, it is less advantageous than composition. 
+    Explain.
+
+71. What is the difference between '>>' and '>>>' operators in java?
+
+72. What are Composition and Aggregation? State the difference.
+
+73. How is the creation of a String using new() different from that of a literal?
+
+74. How is the creation of a String using new() different from that of a literal?
+
+75. Is exceeding the memory limit possible in a program despite having a garbage collector?
+
+76. Why is synchronization necessary? Explain with the help of a relevant example.
+
+77. In the given code below, what is the significance of ...?
+
+78. What will be the output of the below java program and define program and define the steps
+    of Execution of the java program and define the steps of Execution of the java with the 
+    help of the below code?
+
+79. Define System.out.println().
+
+80. Can you explain the Java thread lifecycle?
+
+81. What could be tradeoff between the usage of an unordered array versus the usage of an 
+    usage of an ordered array?
+
+82. Is it possible to import the same class or package twice in Java and what happens to it 
+    during runtime?
+
+83. In case a package has sub packages, will it suffice to import only the main package?
+    e.g. Does importing of com.myMainPackage.* laso import com.myMainPackage.mySubPackage.*?
+
+84. Will the finally vlock be executed if the code System.exit(0) is written at end of try
+    block?
+
+85. What do you understand by marker interfaces in Java?
+
+86. Explain the term 'Double Brace Initialisation' in Java?
+
+87. Why is it said that length() method of String class doesn't return accurate results?
+
+88. What is the output of the below code and why?
+
+89. What are the possible ways of making object eligible for grabage collection in Java?
+
+90. In the below Java Program, how many objects are eligible for garbage collection?
+
+91. What is the best way to inject dependency? Also, state the reason.
+
+92. How can set the spring bean scope. And what supported scopes does it have?
+
+93. What are the different categories of Java Design pattterns?
+
+94. What is a Memory Leak? Discuss some common causes of it.
+
+95. Assume a thread has a lock on it, calling the sleep() method on that thread will release
+    the lock?
+
+** 10 coding questions left 
+https://www.interviewbit.com/java-interview-questions/
+    
+
+
+
+
+
+
+
+
+

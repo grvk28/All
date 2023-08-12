@@ -1,0 +1,17 @@
+.RStrap{
+    gap:3vh;
+    margin-top: 3vh;
+}
+.col,.RStrap
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.Focus > button.active{
+    color:red;
+}
+
+.Focus > button.active{
+    background-color: aqua;
+}

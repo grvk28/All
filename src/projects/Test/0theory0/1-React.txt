@@ -1,0 +1,126 @@
+Maxm.:43 Last totals:0,6.5(IC)
+Total Time: 43 mins
+Start:   Ended:0
+
+.6. What is JSX? 1
+html inside javascript 
+0.5 
+
+.9. What are the differences between controlled and
+ uncontrolled components? 1
+constrollled props unC state 
+C React Un DOM 0
+
+.12. Explain about types of side effects in React 
+component. 1
+0
+
+.29. Does React Hook work with static typing? 1
+0
+
+.32. How does the performance of using Hooks will 
+differ in comparison with the classes? 1
+faster 0.5
+
+.41. How to perform automatic redirect after login?1
+import {Redirect} from 'react-router'
+...
+<Redirect to=''/>
+
+1. What is React? 2
+
+4. What is useState() in React? 1
+
+7. What are the differences between functional and
+ class components? 2
+
+2. What are the advantages of using React? 2
+
+3. What are the limitations of React? 1
+
+5. What are keys in React? 1
+
+6. What is JSX? 1
+
+8. What is the virtual DOM? How does react use the
+ virtual DOM to render the UI? 1
+
+9. What are the differences between controlled and
+ uncontrolled components? 1
+
+10. What are props in React? 1
+
+11. Explain React state and props. 1
+
+12. Explain about types of side effects in React 
+component. 1
+
+13. What is prop drilling in React? 1
+
+14. What are error boundaries? 1
+
+15. What is React Hooks? 1
+
+16. Explain React Hooks. 1
+
+17. What are the rules that must be followed while
+ using React Hooks? 1
+
+18. What is the use of useEffect React Hooks? 1
+
+19. Why do React Hooks make use of refs? 1
+
+20. What are Custom Hooks? 1
+
+21. Explain Strict Mode in React. 1
+
+22. How to prevent re-renders in React? 1
+
+23. What are the different ways to style a React 
+component? 1
+
+24. Name a few techniques to optimize React app 
+performance. 1
+
+25. How to pass between react components? 1
+
+26. What are Higher Order Components? 1
+
+27. What are the different phases of the component
+ lifecycle? 1
+
+28. What are the lifecycle methods of React? 1
+
+29. Does React Hook work with static typing? 1
+
+30. Explain about types of Hooks in React. 1
+
+31. Differentiate React Hooks vs Classes. 1
+
+32. How does the performance of using Hooks will 
+differ in comparison with the classes? 1
+
+33. Do Hooks cover all the functionalities provided 
+by the classes? 1 
+
+34. What is React Router? 1
+
+35. Can React Hook replaces Redux? 1
+
+36. Explain conditional rendering in React. 1
+
+37. Explain how to create a simple React Hooks 
+example program. 1
+
+38. How to create a switching component for 
+displaying different pages? 1
+
+39. How to re-render the view when the browser is 
+resized? 1
+
+40. How to pass data between sibling components 
+using React router? 1
+
+41. How to perform automatic redirect after login?
+1
+
